@@ -1,3 +1,4 @@
+<?php include "admin/lang.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,17 +44,17 @@
 						</li>
 					</ul>
 				</div>
-				<h2>Indonesia Flight Support<span>We ready to serve you 24/7</span></h2>
+				<h2><?php lang("5"); ?>  <!--Indonesia Flight Support --><span> <?php lang("6"); ?>  <!--We ready to serve you 24/7 --></span></h2>
 				<div class="nav-holder">
 					<nav class="nav">
 						<ul>
-							<li><a href="about.php">About US</a></li>
-							<li><a href="services.php">Our Services</a></li>
-							<li><a href="contact.php">Contanct us</a></li>
+							<li><a href="about.php"><?php lang("7"); ?>  <!--About US --></a></li>
+							<li><a href="#services"><?php lang("8"); ?>  <!--Our Services --></a></li>
+							<li><a href="contact.php"><?php lang("9"); ?>  <!--Contanct us --></a></li>
 							
 						</ul>
 					</nav>
-					<a href="#sent-form" class="btn-white fancybox">Sent Email</a>
+					<a href="#sent-form" class="btn-white fancybox">  <?php lang("10"); ?>  <!--Send Email --></a>
 				</div>
 			</div>
 		</header>
